@@ -249,7 +249,7 @@ function CourseDetails() {
                   src={
                     instructor.image
                       ? instructor.image
-                      : `https://api.dicebear.com/5.x/initials/svg?seed=${instructor.firstName} ${instructor.lastName}`
+                      : `https://api.dicebear.com/5.x/initials/svg?seed=${instructor.firstName}%20${instructor.lastName}`
                   }
                   alt="Author"
                   className="h-14 w-14 rounded-full object-cover"
