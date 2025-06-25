@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/common/Navbar";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import OpenRoute from "./components/core/Auth/OpenRoute";
+import OpenRoute from "./components/core/auth/OpenRoute";
 import ForgotPassword from "./pages/ForgotPassword";
 import UpdatePassword from "./pages/UpdatePassword";
 import VerifyEmail from "./pages/VerifyEmail";
