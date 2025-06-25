@@ -1,0 +1,24 @@
+{
+  "name": "studynotion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"blue,green\" \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix backend start",
+    "client": "npm --prefix frontend run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.9.0",
+    "concurrently": "^9.1.2",
+    "react-hook-form": "^7.57.0",
+    "react-otp-input": "^3.1.1",
+    "react-redux": "^9.2.0",
+    "react-stars": "^2.2.5",
+    "swiper": "^11.2.8"
+  }
+}
