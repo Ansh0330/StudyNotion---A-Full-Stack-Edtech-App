@@ -61,7 +61,7 @@ export const passwordUpdated = (email, name) => {
     <body>
         <div class="container">
             <a href="${process.env.CLIENT_URL}"><img class="logo"
-                    src="frontend/src/assets/Logo/rzp_logo.png" alt="StudyNotion Logo"></a>
+                    src="https://i.postimg.cc/4ywPP5TD/rzp-logo.png" alt="StudyNotion Logo"></a>
             <div class="message">Password Update Confirmation</div>
             <div class="body">
                 <p>Hey ${name},</p>

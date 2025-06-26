@@ -72,7 +72,7 @@ export const courseEnrollmentEmail = (courseName, name) => {
     
     <body>
         <div class="container">
-            <a href="${process.env.CLIENT_URL}"><img class="logo" src="frontend/src/assets/Logo/rzp_logo.png"
+            <a href="${process.env.CLIENT_URL}"><img class="logo" src="https://i.postimg.cc/4ywPP5TD/rzp-logo.png"
                     alt="StudyNotion Logo"></a>
             <div class="message">Course Registration Confirmation</div>
             <div class="body">

@@ -80,7 +80,7 @@ export const contactUsEmail = (
     <body>
         <div class="container">
             <a href="${process.env.CLIENT_URL}"><img class="logo"
-                    src="frontend/src/assets/Logo/rzp_logo.png" alt="StudyNotion Logo"></a>
+                    src="https://i.postimg.cc/4ywPP5TD/rzp-logo.png" alt="StudyNotion Logo"></a>
             <div class="message">Contact Form Confirmation</div>
             <div class="body">
                 <p>Dear ${firstName} ${lastName},</p>

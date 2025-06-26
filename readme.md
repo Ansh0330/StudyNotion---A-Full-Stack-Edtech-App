@@ -51,7 +51,7 @@ A full‑stack EdTech platform built with the MERN stack—allowing instructors 
 
 ### Landing Page
 
-![1750963337904](image/readme/1750963337904.png)
+![1750963919394](image/readme/1750963919394.png)
 
 ---
 
@@ -146,7 +146,4 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE) for more informati
 
 Created by **Ansh** – feel free to [open an issue](https://github.com/Ansh0330/StudyNotion---A-Full-Stack-Edtech-App/issues) or reach out via GitHub Discussions.
 
-Enjoy exploring and contributing to StudyNotion! 😊`<p align="center">`
-  `<img src="" alt="StudyNotion Logo" width="200"/>`
-
-</p>
+Enjoy exploring and contributing to StudyNotion! 😊 [![rzp-logo.png](https://i.postimg.cc/4ywPP5TD/rzp-logo.png)](https://postimg.cc/Pvp1r1Jy)
