@@ -1,10 +1,10 @@
 import dotenv from "dotenv";
 dotenv.config({
-    path : "./.env"
-})
+  path: "./.env",
+});
 
 export const courseEnrollmentEmail = (courseName, name) => {
-    return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
     
     <head>
@@ -72,7 +72,7 @@ export const courseEnrollmentEmail = (courseName, name) => {
     
     <body>
         <div class="container">
-            <a href="${process.env.CLIENT_URL}"><img class="logo" src="https://i.ibb.co/Tx4cJ2B8/rzp-logo.png"
+            <a href="${process.env.CLIENT_URL}"><img class="logo" src="frontend/src/assets/Logo/rzp_logo.png"
                     alt="StudyNotion Logo"></a>
             <div class="message">Course Registration Confirmation</div>
             <div class="body">
@@ -89,4 +89,4 @@ export const courseEnrollmentEmail = (courseName, name) => {
     </body>
     
     </html>`;
-  };
+};
