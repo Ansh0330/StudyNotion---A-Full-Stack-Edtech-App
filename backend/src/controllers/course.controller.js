@@ -6,7 +6,6 @@ import { SubSection } from "../models/subSection.models.js";
 import { CourseProgress } from "../models/courseProgress.models.js";
 import { uploadImageToCloudinary } from "../utils/imageUploader.js";
 import { convertSecondsToDuration } from "../utils/convertSecToDuration.js";
-import { populate } from "dotenv";
 
 // create course ka handler function
 const createCourse = async (req, res) => {

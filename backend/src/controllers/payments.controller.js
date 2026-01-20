@@ -210,12 +210,10 @@ export const sendPaymentSuccessEmail = async (req, res) => {
 
 export const enrollStudents = async (courses, userId, res) => {
   if (!courses || !userId) {
-    return res
-      .status(400)
-      .json({
-        success: false,
-        message: "Please Provide Course ID and User ID",
-      });
+    return res.status(400).json({
+      success: false,
+      message: "Please Provide Course ID and User ID",
+    });
   }
 
   for (const courseId of courses) {
@@ -234,7 +232,7 @@ export const enrollStudents = async (courses, userId, res) => {
       }
       // console.log("Updated course: ", enrolledCourse);
 
-      // Create the progress of the student which has just now enrolled 
+      // Create the progress of the student which has just now enrolled
       const courseProgress = await CourseProgress.create({
         courseID: courseId,
         userId: userId,
